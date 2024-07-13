@@ -15,7 +15,7 @@ jobs:
       - name: Download file
         run: |
           curl -o android-studio-2024.1.1.11-windows.exe https://redirector.gvt1.com/edgedl/android/studio/install/2024.1.1.11/android-studio-2024.1.1.11-windows.exe  # 使用 curl 命令下载文件
-
+          
       - name: Upload to repository
         run: |
           git add android-studio-2024.1.1.11-windows.exe
