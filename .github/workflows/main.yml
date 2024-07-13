@@ -19,6 +19,8 @@ jobs:
           
       - name: Upload to repository
         run: |
+          git config --global user.email "yunlong17568@gmail.com"
+          git config --global user.name "Robert Yang"
           git add android-studio-2024.1.1.11-windows.exe
           git commit -m "android-studio-2024.1.1.11-windows.exe"
           git push
