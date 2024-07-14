@@ -1,8 +1,7 @@
 name: Download and Upload File
 
 on:
-  push:
-    branches: [ main ]  # 触发工作流的条件，例如在推送到 main 分支时
+  workflow_dispatch:
 
 jobs:
   download_and_upload:
